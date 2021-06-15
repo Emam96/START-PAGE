@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+.subTitle {
+  font-size: 2pc;
+  font-family: Raleway;
+  color: black;
+}
+
+h5 {
+  font-size: 1.5pc;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bolder;
+}
+
+body {
+  margin: 0%;
+}
+
+nav {
+  background-color: #47597e;
+  height: 3.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 5px 20px #0000003d;
+}
+
+nav a {
+  font-size: 1.3pc;
+  font-family: Raleway;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 1.1rem 1.9rem;
+  display: block;
+  float: left;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: #47597e;
+  font-family: Raleway;
+  color: white;
+  height: 35rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 5.5pc;
+  padding: 10rem;
+  font-weight: bold;
+}
+
+header button {
+  padding: 1.5rem 2rem;
+  font-size: 1pc;
+  margin-top: -5rem;
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  box-shadow: 0px 5px 15px hsla(0, 0%, 0%, 0.602);
+  cursor: pointer;
+}
+
+.upperpart {
+  height: 20rem;
+  font-family: Raleway;
+}
+
+.upperpart h1 {
+  padding: 1rem 5rem;
+  font-weight: bolder;
+  margin-top: 5rem;
+}
+
+.upperpart h5 {
+  padding: 2rem 5rem;
+  margin-right: 60rem;
+}
+
+.upperpart p {
+  padding: 2rem 5rem;
+  margin-right: 60rem;
+}
+
+.upperpart img {
+  position: relative;
+  bottom: 17rem;
+  left: 65rem;
+  width: 400px;
+  height: 400px;
+}
+
+.LOWERpart {
+  height: 20rem;
+  font-family: Raleway;
+  margin-top: 15rem;
+}
+
+.LOWERpart h1 {
+  padding: 1rem 5rem;
+  margin-left: 45rem;
+  font-weight: bolder;
+}
+
+.LOWERpart h5 {
+  padding: 2rem 5rem;
+  margin-left: 45rem;
+}
+
+.LOWERpart p {
+  padding: 2rem 5rem;
+  margin-left: 45rem;
+}
+
+.LOWERpart img {
+  position: relative;
+  bottom: 25rem;
+  right: -7rem;
+  width: 600px;
+  height: 600px;
+}
+
+footer {
+  background-color: #47597e;
+  font-family: Raleway;
+  color: white;
+  text-align: center;
+  margin-top: 30rem;
+  height: 15rem;
+}
+
+footer a {
+  font-size: 1.3pc;
+  font-family: Raleway;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem;
+  position: relative;
+  top: 10rem;
+}
+
+footer p {
+  padding: 5rem;
+}
